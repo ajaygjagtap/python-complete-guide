@@ -1,2 +1,70 @@
-# python-complete-guide
-A structured Python repository designed for beginners and intermediate learners, covering Python fundamentals, loops, conditionals, collections, functions, OOP concepts, modules, file handling, exceptions, and advanced topics with practical examples.
+# 🐍 Python Complete Guide
+
+A well-structured Python repository covering **Python fundamentals to advanced concepts**, designed for:
+- Beginners learning Python
+- Interview preparation
+- Quick revision
+- Reference for real-world Python usage
+
+---
+
+## 📌 Topics Covered
+
+### 🔹 Basics
+- Variables & Data Types
+- Operators
+- Input / Output
+- Type Casting
+- Strings & String Formatting
+
+### 🔹 Control Flow
+- if / else
+- for loop
+- while loop
+- break, continue, pass
+
+### 🔹 Collections
+- List, Tuple, Set, Dictionary
+- List & Dictionary Comprehensions
+- `.join()` method
+
+### 🔹 Functions
+- Functions
+- Lambda Functions
+- `*args` and `**kwargs`
+- Recursion
+
+### 🔹 Object-Oriented Programming (OOP)
+- Classes & Objects
+- Types of Inheritance
+- Polymorphism
+- Encapsulation
+- Abstraction
+- Instance vs Class Variables
+
+### 🔹 Modules
+- Built-in Modules
+- Custom Modules & Packages
+
+### 🔹 Exception Handling
+- Try / Except / Else / Finally
+- Custom Exceptions
+
+### 🔹 File Handling
+- Read & Write Files
+- CSV & JSON Handling
+
+### 🔹 Advanced Python
+- Decorators
+- Generators
+- Iterators
+- Context Managers
+- `is` vs `==`
+  
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/<your-username>/python-complete-guide.git
+cd python-complete-guide
+python basics/variables.py
