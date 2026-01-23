@@ -4,7 +4,7 @@ Python provides the open() function to open a file.
 It should take arguments, Name of file and Mode.
 '''
 
-f = open("Sample.txt", "r")
+f = open("sample.txt", "r")
 print(f)    # <_io.TextIOWrapper name='Sample.txt' mode='r' encoding='cp1252'>
 
 print("-----------------------------------------------------------------------------")
@@ -27,7 +27,7 @@ Closing a file :
 It is important to close a file after you done with it.
 This releases the resources used by the file and allow other programs to access it.
 '''
-f = open("Sample.txt", "r")
+f = open("sample.txt", "r")
 # Do something with file.
 f.close()
 
@@ -37,13 +37,13 @@ print("-------------------------------------------------------------------------
 Reading Files :- 
 '''
 # Read Entire File :-
-file = open("Sample.txt", "r")
+file = open("sample.txt", "r")
 content = file.read()
 print(content)
 file.close()
 
 # Read Line By Line :-
-file = open("Sample.txt", "r")
+file = open("sample.txt", "r")
 for line in file:
     print(line)
 file.close()
@@ -54,12 +54,12 @@ print("-------------------------------------------------------------------------
 Writing to Files :-
 '''
 # Write
-file = open("Sample.txt", "w")
+file = open("sample.txt", "w")
 file.write("I'm learning about file handling.")
 file.close()
 
 # Append
-file = open("Sample.txt", "a")
+file = open("sample.txt", "a")
 file.write("\nNew line added.")
 
 print("-----------------------------------------------------------------------------")
@@ -68,7 +68,7 @@ print("-------------------------------------------------------------------------
 with Statement :-
 Alternatively you can use the with statement to automatically close the file after you are done with it.
 '''
-with open("Sample.txt", "r") as file:
+with open("sample.txt", "r") as file:
     content = file.read()
     print(content)    
 
@@ -83,3 +83,4 @@ file.seek()      -----> Moves the file cursor to a specific position.
 file.tell()      -----> Returns the current file position(cursor).
 file.flush()     -----> Forces writing buffered data to a disk.
 '''
+
