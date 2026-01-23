@@ -58,11 +58,4 @@ A well-structured Python repository covering **Python fundamentals to advanced c
 - Generators
 - Iterators
 - `is` vs `==`
-  
 
-## ▶️ How to Run
-
-```bash
-git clone https://github.com/<your-username>/python-complete-guide.git
-cd python-complete-guide
-python basics/variables.py
