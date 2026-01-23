@@ -52,13 +52,11 @@ A well-structured Python repository covering **Python fundamentals to advanced c
 
 ### 🔹 File Handling
 - Read & Write Files
-- CSV & JSON Handling
 
 ### 🔹 Advanced Python
 - Decorators
 - Generators
 - Iterators
-- Context Managers
 - `is` vs `==`
   
 
